@@ -18,7 +18,7 @@ Each result can be downloaded from the website as a zip file containing:
 
 GeoJSON maps of the input tracts and output regions with associated data are displayed and available for download as well.
 
-
+![Charlotte Map](https://github.com/co-ncrn/co-ncrn.github.io/blob/master/msa_data/18140/18140_gen_region.geojson)
 
 # Motivation
 
