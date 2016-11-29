@@ -17,20 +17,3 @@ Each result can be downloaded from the website as a zip file containing:
 - A metadata file
 
 GeoJSON maps of the input tracts and output regions with associated data are displayed and available for download as well.
-
-<script src="https://embed.github.com/view/geojson/co-ncrn/co-ncrn.github.io/master/msa_data/18140/18140_gen_region.geojson"></script>
-![Charlotte Map](https://github.com/co-ncrn/co-ncrn.github.io/blob/master/msa_data/18140/18140_gen_region.geojson)
-
-# Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
-
-# Tests
-
-Describe and show how to run the tests with code examples.
-
-# Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-# License
