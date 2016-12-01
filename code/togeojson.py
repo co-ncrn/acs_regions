@@ -4,6 +4,7 @@ import random
 import geojson
 #from shapely.geometry import shape
 
+
 def convert_to_json(inputpath, outputpath):
     
     # Read in shapefile as Geopandas DF
@@ -34,7 +35,7 @@ def style_geojson(outputpath, typeID, geo):
         data['features'][i]['properties']["stroke-width"] = 2 
         data['features'][i]['properties']["fill-opacity"] = .6
         data['features'][i]['properties']["stroke-opacity"] = 10
-        '''   
+        '''         
         if geo == 'region':
            
             if i < 100: 
@@ -54,8 +55,7 @@ def style_geojson(outputpath, typeID, geo):
                         "type": "Feature"} 
     
                 data['features'].append(marker_dict)
-        '''
+        '''      
     # Write back to file          
     with open(outputpath,"w") as f:
         json.dump(data, f, sort_keys=True)
-                
