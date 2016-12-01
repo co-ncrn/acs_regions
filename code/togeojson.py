@@ -2,7 +2,7 @@ import geopandas as gpd
 import json
 import random
 import geojson
-from shapely.geometry import shape
+#from shapely.geometry import shape
 
 def convert_to_json(inputpath, outputpath):
     
@@ -58,5 +58,4 @@ def style_geojson(outputpath, typeID, geo):
     # Write back to file          
     with open(outputpath,"w") as f:
         json.dump(data, f, sort_keys=True)
-
-
+                
