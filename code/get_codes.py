@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #read in MSA state/county crosswalk
-msa_guide = pd.read_csv('C:/Users/Becky/Documents/acs_research/msa_guide2.csv', index_col=0, dtype={'FIPS State Code':str, 'FIPS County Code':str, 'CBSA Code':str})
+msa_guide = pd.read_csv('C:/Users/Becky/Documents/acs_regions/msa_guide.csv', index_col=0, dtype={'FIPSState Code':str, 'FIPSCountyCode':str, 'CBSA Code':str})
 
 #returns a list of the counties in the msa in the form of [[state FIPS code, county FIPS code], ...]
 def get_msa(msa_code):
